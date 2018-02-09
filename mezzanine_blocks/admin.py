@@ -58,7 +58,7 @@ class ImageBlockAdmin(BaseTranslationModelAdmin):
 
     fieldsets = (
         (None, {
-            "fields": ["title", "description", "category", "image", 'url'],
+            "fields": ["title", "description", "category", "image"],
         }),
         (_("Advanced data"), {
             "fields": [('height', 'width', 'quality'), 'login_required', 'show_title', "slug"],
