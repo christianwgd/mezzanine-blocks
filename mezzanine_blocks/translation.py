@@ -14,4 +14,4 @@ class TranslatedRichBlock(TranslationOptions):
 
 @register(ImageBlock)
 class TranslatedImageBlock(TranslationOptions):
-    fields = ('description', 'url')
+    fields = ('description')
