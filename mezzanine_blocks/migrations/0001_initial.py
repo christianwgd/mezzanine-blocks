@@ -55,8 +55,8 @@ class Migration(migrations.Migration):
                 ('height', models.IntegerField(default=100, help_text='Height in pixels.', verbose_name='Height')),
                 ('width', models.IntegerField(default=200, help_text='Width in pixels.', verbose_name='Width')),
                 ('quality', models.IntegerField(default=80, verbose_name='Quality')),
-                ('category', models.ForeignKey(blank=True, to='mezzanine_blocks.BlockCategory', null=True)),
-                ('site', models.ForeignKey(editable=False, to='sites.Site')),
+                ('category', models.ForeignKey(blank=True, to='mezzanine_blocks.BlockCategory', on_delete=models.PROTECT, null=True)),
+                ('site', models.ForeignKey(editable=False, to='sites.Site', on_delete=models.PROTECT)),
             ],
             options={
                 'verbose_name': 'Image Block',
@@ -73,8 +73,8 @@ class Migration(migrations.Migration):
                 ('content', mezzanine.core.fields.RichTextField(verbose_name='Content')),
                 ('login_required', models.BooleanField(default=False, help_text='If checked, only logged in users can view this page', verbose_name='Login required')),
                 ('show_title', models.BooleanField(default=False, help_text='If checked, show block title', verbose_name='Show title')),
-                ('category', models.ForeignKey(blank=True, to='mezzanine_blocks.BlockCategory', null=True)),
-                ('site', models.ForeignKey(editable=False, to='sites.Site')),
+                ('category', models.ForeignKey(blank=True, to='mezzanine_blocks.BlockCategory', on_delete=models.PROTECT, null=True)),
+                ('site', models.ForeignKey(editable=False, to='sites.Site', on_delete=models.PROTECT)),
             ],
             options={
                 'verbose_name': 'Rich Block',
@@ -84,11 +84,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='block',
             name='category',
-            field=models.ForeignKey(blank=True, to='mezzanine_blocks.BlockCategory', null=True),
+            field=models.ForeignKey(blank=True, to='mezzanine_blocks.BlockCategory', on_delete=models.PROTECT, null=True),
         ),
         migrations.AddField(
             model_name='block',
             name='site',
-            field=models.ForeignKey(editable=False, to='sites.Site'),
+            field=models.ForeignKey(editable=False, to='sites.Site', on_delete=models.PROTECT),
         ),
     ]
