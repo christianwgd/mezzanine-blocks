@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-03 15:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\admin.py:29 .\admin.py:46 .\admin.py:64
+msgid "Advanced data"
+msgstr ""
+
+#: .\category.py:33
+msgid "Block category"
+msgstr ""
+
+#: .\category.py:34
+msgid "Block categories"
+msgstr ""
+
+#: .\defaults.py:7
+msgid "Block cache prefix."
+msgstr ""
+
+#: .\models.py:15
+msgid "Login required"
+msgstr ""
+
+#: .\models.py:15
+msgid "If checked, only logged in users can view this page"
+msgstr ""
+
+#: .\models.py:16
+msgid "Show title"
+msgstr ""
+
+#: .\models.py:16
+msgid "If checked, show block title"
+msgstr ""
+
+#: .\models.py:32
+msgid "Block"
+msgstr ""
+
+#: .\models.py:33
+msgid "Blocks"
+msgstr ""
+
+#: .\models.py:40
+msgid "Rich Block"
+msgstr ""
+
+#: .\models.py:41
+msgid "Rich Blocks"
+msgstr ""
+
+#: .\models.py:47
+msgid "Image"
+msgstr ""
+
+#: .\models.py:48
+msgid "Description"
+msgstr ""
+
+#: .\models.py:49
+msgid "External URL"
+msgstr ""
+
+#: .\models.py:49
+msgid "Optional URL."
+msgstr ""
+
+#: .\models.py:51
+msgid "Height"
+msgstr ""
+
+#: .\models.py:51
+msgid "Height in pixels."
+msgstr ""
+
+#: .\models.py:52
+msgid "Width"
+msgstr ""
+
+#: .\models.py:52
+msgid "Width in pixels."
+msgstr ""
+
+#: .\models.py:53
+msgid "Quality"
+msgstr ""
+
+#: .\models.py:58
+msgid "Image Block"
+msgstr ""
+
+#: .\models.py:59
+msgid "Image Blocks"
+msgstr ""
+
+#: .\views.py:41
+msgid "You are not allowed to edit this block"
+msgstr ""
