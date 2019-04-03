@@ -119,6 +119,10 @@ etc.
 
 Installation
 ============
+Version 1.0
+-----------
+    - Bumped version
+    - Compatibility with Django 2.x
 Version 0.9.6
 -----------
     - Bumped version
