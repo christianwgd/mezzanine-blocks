@@ -58,7 +58,7 @@ class ImageBlock(BaseBlock, AdminThumbMixin):
         verbose_name = _('Image Block')
         verbose_name_plural = _('Image Blocks')
 
-   def get_url(self):
+    def get_url(self):
        return self.url
 
     def get_thumb_url(self):
