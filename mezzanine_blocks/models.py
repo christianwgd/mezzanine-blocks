@@ -11,7 +11,7 @@ from .category import BlockCategory
 class BaseBlock(Slugged):
     """Base Block
     """
-    category = models.ForeignKey(BlockCategory, null=True, blank=True)
+    category = models.ForeignKey(BlockCategory, on_delete=models.PROTECT, null=True, blank=True)
     login_required = models.BooleanField(_("Login required"), help_text=_("If checked, only logged in users can view this page"), default=False)
     show_title = models.BooleanField(_("Show title"), help_text=_("If checked, show block title"), default=False)
 
@@ -59,7 +59,7 @@ class ImageBlock(BaseBlock, AdminThumbMixin):
         verbose_name_plural = _('Image Blocks')
 
     def get_url(self):
-        return self.url
+       return self.url
 
     def get_thumb_url(self):
         from mezzanine.core.templatetags.mezzanine_tags import thumbnail

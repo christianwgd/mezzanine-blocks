@@ -1,5 +1,11 @@
 *.pyc
 *sublime*
+*.json
 dev.db
 local_settings.py
 static/media/
+.idea/
+.vscode/
+build/
+dist/
+*.egg-info

@@ -1,3 +1,8 @@
+Update
+======
+Removed URL (optional) field from the Image Class as it was giving a NoneType Error when used in multilanguage sites
+
+
 Overview
 ========
 A mezzanine flavored fork of [django-flatblocks] [1].
@@ -29,7 +34,7 @@ Installation
 ============
 1. Add mezzanine_blocks to your virtualenv or clone the repository :
 ```bash
-    pip install git+git://github.com/Cajoline/mezzanine-blocks.git
+    pip install git+git://github.com/christianwgd/mezzanine-blocks.git
 ```
 
 2. Add "mezzanine_blocks" to INSTALLED_APPS:
