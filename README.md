@@ -1,3 +1,8 @@
+Update
+======
+Removed URL (optional) field from the Image Class as it was giving a NoneType Error when used in multilanguage sites
+
+
 Overview
 ========
 A mezzanine flavored fork of [django-flatblocks] [1].
