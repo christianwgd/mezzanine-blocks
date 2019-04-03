@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-03 15:39+0200\n"
+"POT-Creation-Date: 2019-04-03 16:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\admin.py:29 .\admin.py:46 .\admin.py:64
+#: .\admin.py:28 .\admin.py:45 .\admin.py:63
 msgid "Advanced data"
 msgstr "Erweiterte Daten"
 
-#: .\category.py:33
+#: .\category.py:33 .\models.py:14
 msgid "Block category"
 msgstr "Block Kategorie"
 
@@ -60,11 +60,11 @@ msgstr "Blöcke"
 
 #: .\models.py:40
 msgid "Rich Block"
-msgstr ""
+msgstr "RTF Block"
 
 #: .\models.py:41
 msgid "Rich Blocks"
-msgstr ""
+msgstr "RTF Blöcke"
 
 #: .\models.py:47
 msgid "Image"
