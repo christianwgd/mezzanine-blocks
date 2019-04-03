@@ -34,7 +34,7 @@ Installation
 ============
 1. Add mezzanine_blocks to your virtualenv or clone the repository :
 ```bash
-    pip install git+git://github.com/christianwgd/mezzanine-blocks.git
+    pip install git+https://github.com/Cajoline/mezzanine-blocks.git
 ```
 
 2. Add "mezzanine_blocks" to INSTALLED_APPS:
@@ -119,6 +119,10 @@ etc.
 
 Installation
 ============
+Version 1.0
+-----------
+    - Bumped version
+    - Compatibility with Django 2.x
 Version 0.9.6
 -----------
     - Bumped version

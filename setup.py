@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 NAME = 'mezzanine-blocks'
 
-VERSION = '0.9.4'
+VERSION = '1.0'
 
 DESCRIPTION = """
-A fork of https://github.com/molokov/mezzanine-blocks.git to make it work with Django 1.9
+A fork of https://github.com/molokov/mezzanine-blocks.git to make it work with Django 1.9 and Django 2.x
 A mezzanine flavored fork of django-flatblocks.
 The goal of this project is to be able to easily create custom blocks of
 text/HTML in the template, and can be editable via admin.
@@ -27,6 +27,7 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Framework :: Django :: 1.9',
+        'Framework :: Django :: 2.0',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
