@@ -46,7 +46,7 @@ class ImageBlock(BaseBlock, AdminThumbMixin):
     """
     image = FileField(verbose_name=_("Image"), upload_to="images", format="Image", max_length=255, null=True, blank=True)
     description = RichTextField(_("Description"), blank=True, null=True)
-#    url = models.URLField(_("External URL"), max_length=255, blank=True, null=True, help_text=_("Optional URL."))
+    url = models.URLField(_("External URL"), max_length=255, blank=True, null=True, help_text=_("Optional URL."))
 
     height = models.IntegerField(_("Height"), default=100, help_text=_("Height in pixels."))
     width = models.IntegerField(_("Width"), default=200, help_text=_("Width in pixels."))
@@ -58,8 +58,8 @@ class ImageBlock(BaseBlock, AdminThumbMixin):
         verbose_name = _('Image Block')
         verbose_name_plural = _('Image Blocks')
 
- #   def get_url(self):
- #       return self.url
+   def get_url(self):
+       return self.url
 
     def get_thumb_url(self):
         from mezzanine.core.templatetags.mezzanine_tags import thumbnail
